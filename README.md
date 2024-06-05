@@ -44,7 +44,7 @@ Prereqs:
 
 From the root directory (will require a few GB or space or so for the models):
 ```
-pip install -r embeddings/requirement.txt # (use a venv if you want)
+pip install -r embeddings/requirements.txt # (use a venv if you want)
 npm install --prefix client
 mkdir embeddings/checkpoints/ && curl -o colbertv2.0.tar.gz https://downloads.cs.stanford.edu/nlp/data/colbert/colbertv2/colbertv2.0.tar.gz && tar -xzf colbertv2.0.tar.gz -C embeddings/checkpoints/
 ```
